@@ -3,14 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body {
   margin: 0;
 }
-
 #bg {
   position: fixed;
   top: 0px;
   left: 0px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  position: absolute;
+}
+
+div {
+  grid-column: 6/8;
+  color: white;
+  font-family: PlayFair;
+  font-weight:700;
 }
